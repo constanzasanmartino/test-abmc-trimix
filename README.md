@@ -1,8 +1,7 @@
-# app manager-backend 
+﻿# ABMC TRIMIX TEST 
 ---------------------
-Este repo contiene el backend que provee de servicios Rest al frontend.
 
-### Stack de Tecnologías utilizadas
+###Tecnologías utilizadas
 * Git
 * jdk-8
 * MySql
@@ -12,6 +11,6 @@ Este repo contiene el backend que provee de servicios Rest al frontend.
 * Tomcat embebido de maven
 
 ### Build + Deploy + Run application (sobre la raiz del proyecto)
-* mvn clean install (genera artefacto: war)
-* mvn tomcat7:run (corre el tomcat embebido)
-* mvn -Dmaven.tomcat.port=8888 tomcat7:run (si se requiere cambiar el puerto por defecto)
+* mvn clean install 
+* mvn tomcat7:run 
+* mvn -Dmaven.tomcat.port=8888 tomcat7:run (para cambiar el puerto por defecto)
